@@ -1,0 +1,59 @@
+This is a simple get-you-going git workflow.
+All of this is in the terminal (except creating the repo on github).
+/////////////////////////////////////////
+1
+in local dir
+$ git init
+$ git config --global user.name "Your Name"
+$ git config --global user.email you@example.com
+
+
+create a .gitignore file in base dir
+see https://www.gitignore.io/
+
+
+git status
+
+git add --all 
+$ git commit -m "My usefully commented first commit"
+
+///////////////////////////////////////
+2 
+create repo on github
+
+
+https://github.com/willworth/playground.git
+
+$ git remote add origin https://github.com/<your-github-username>/example.git
+$ git push -u origin master
+
+
+That's it on github.
+
+
+///////////////////////////////////////
+To clone elsewhere:
+$ git clone  https://github.com/<your-github-username>/example.git
+//////////////////////////////////////
+
+To commit progress:
+git status
+(always a good idea to check what's going on)
+
+git add --all
+
+git status
+
+git commit -m "Imperative description"
+
+git push
+
+
+
+
+
+
+
+
+
+
