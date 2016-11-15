@@ -3,29 +3,38 @@ alert("This is the alert text from the popup function")
 }
 
 
-function findLongestWord(str) {
+
+
+
+
+
+// document.onclick = function(){
+//   alert("you clicked somewhere in the doc!");
+// }
+
+// function findLongestWord(str) {
   
-//   split input into an array
-//   init num var
-//   loop over array, updating num var to new highest each time previous is exceeded
-//   return num var
-  var harry = str.split(" ");
-  var longest= 0;
-  for (var i=0; i< harry.length; i++){
+// //   split input into an array
+// //   init num var
+// //   loop over array, updating num var to new highest each time previous is exceeded
+// //   return num var
+//   var harry = str.split(" ");
+//   var longest= 0;
+//   for (var i=0; i< harry.length; i++){
     
-      if (harry[i].length > longest) {
-    longest = harry[i].length;
-        } 
+//       if (harry[i].length > longest) {
+//     longest = harry[i].length;
+//         } 
       
       
       
-  }  
+//   }  
      
       
-  return longest;
-}
+//   return longest;
+// }
 
-findLongestWord("The quick brown fox jumped over the lazy dog");
+// findLongestWord("The quick brown fox jumped over the lazy dog");
 
 
 
