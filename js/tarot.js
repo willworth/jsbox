@@ -2,7 +2,28 @@ var card1;
 var card2;
 var card3;
 
-
+var major =["0 - The Fool.",
+"I - The Magus.",
+"II - The Highpriestess.",
+"III - The Empress.",
+"IV - The Emperor.",
+"V - The Hierophant.",
+"VI - The Lovers.",
+"VII - The Chariot.",
+"VIII - Adjustment.",
+"IX - The Hermit.",
+"X - Fortune.",
+"XI - Lust.",
+"XII - The Hanged man.",
+"XIII - Death.",
+"XIV - Art.",
+"XV - The Devil.",
+"XVI - The Tower.",
+"XVII - The Star.",
+"XVIII - The Moon.",
+"XIX - The Sun.",
+"XX - The Aeon.",
+"XXI - The Universe."]
 
 
 
@@ -26,8 +47,8 @@ function startTarot(){
 
 
 
-    alert ("Your reading for  " + today +
-    " is \n \n" + card1 +", " + card2+ ", "+ card3 );
+    alert ("Your reading for " + today +
+    " is: \n \n" + card1 +", " + card2+ ", "+ card3 );
 }
 
 
