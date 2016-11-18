@@ -23,7 +23,7 @@ var major =["0 - The Fool.",
 "XVIII - The Moon.",
 "XIX - The Sun.",
 "XX - The Aeon.",
-"XXI - The Universe."]
+"XXI - The Universe."]  /// never put a comma after last element in an array
 
 
 
@@ -44,11 +44,10 @@ function startTarot(){
 
 
 
-
-
-
     alert ("Your reading for " + today +
-    " is: \n \n" + card1 +", " + card2+ ", "+ card3 );
+    " is: \n \n" 
+    + major[card1] +",   " + major[card2]+ ",   "+ major[card3] );
+
 }
 
 
