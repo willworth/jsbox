@@ -1,5 +1,5 @@
 function popup() {
-alert("This is the alert text from the popup function")
+alert("alert  from scripts.js popup function")
 }
 
 
