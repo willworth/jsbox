@@ -45,7 +45,7 @@ function checkNumber() {
         return false;
     }
     alert("You got it! The number was " +
-    goalNum +"\n \n It took  you " + guessCount +
+    goalNum +"." +"\n \n It took you " + guessCount +
     " guesses."
     )
     return true;

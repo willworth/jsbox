@@ -23,7 +23,7 @@ text-align: center;
 }
 
 body{
-    background-color: lightslategrey;
+    background-color: darkslategrey;
 }
 
 ul {
@@ -54,6 +54,17 @@ li a:hover {
     background-color: #111;
 }
 
+a {
+    color: wheat;
+}
 
+a:link {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
 /* comments appear inside slash-asterisk, just like this line!
    there are no "one-line comments"; this is the only comment style */
